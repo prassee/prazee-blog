@@ -15,4 +15,4 @@ jobs:
         env:
           PAGES_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BUILD_FLAGS: "--config zola.toml"
+          # BUILD_FLAGS: "--config zola.toml"
